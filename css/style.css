@@ -41,12 +41,56 @@ ul.anchor-block li a {
 #music {
     max-width: 600px;
     margin: 0 auto;
-    width: 100%
+    width: 100%;
+    color: #555
 }
 
 iframe {
     height: 360px;
     width: 640px;
+}
+
+#about {
+    text-align: center;
+}
+
+.author {
+    font-size: smaller;
+    font-weight: lighter;
+    color: #555;
+}
+
+#picture {
+    background-image: url('../img/jane2.jpg');
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+#contact {
+    text-align: left;
+    padding: 0 15%;
+}
+
+.contact-info {
+    border-bottom: solid #555 1px;
+}
+
+.contact-name {
+    font-weight: bold
+}
+
+.contact-email {
+    font-weight: lighter;
+    font-size: small;
+    color: #555;
+}
+
+.contact-phone {
+    font-weight: lighter;
+    font-size: small;
+    color: #555;
 }
 
 footer {
